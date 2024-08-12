@@ -1,0 +1,157 @@
+$master: #36005aa6;
+$h1_master: #fff;
+$heder: #aa3ef1a6;
+$nav_bar: #36005a4d;
+$heder_nav_bar_click: #53008ac5;
+$heder_nav_bar_click_hover: #d292fc;
+$heder_nav_bar_text: #d292fcd3;
+$heder_nav_bar_text_hover: #ae45f5;
+$button_connect_bacround: #53008ac5;
+$button_connect_bacround_hover: #d292fc;
+$button_connect_text: #d292fcd3;
+$button_connect_text_hover: #53008ac5;
+
+$fit_collor: #e5ff00a8;
+
+header{
+    background-color: $heder;
+    width: auto;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.Logobox{
+    background-color: $fit_collor;
+    width: auto;
+    height: auto;
+    margin-left:  30px;
+    
+
+    .Logo{
+        background-color: #36005aa6;
+        
+     width: 90px;
+     height: auto;
+    }
+}
+.hd_centras .master_contact{
+    padding-bottom: 15px;
+    
+    .contact_M{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        width: auto;
+        height: auto;
+
+     
+        .masyer_icon{
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            align-items: center;
+            
+            
+
+            .M_text{
+                color: orange;
+                font-size: x-large;
+
+                a{
+                    text-decoration: none;
+                    color: orange;
+
+                    &:hover{
+                        color: #ee82ee;
+                    }
+                }
+
+                &:hover{
+                    color: #ee82ee;
+                }
+            }
+
+
+            .M_icon{
+                width: 35px;
+                
+
+            }
+        }
+    }
+}
+
+.hd_centras .nav{
+    background-color: $nav_bar;
+    width: auto;
+    height: 25px; 
+    
+
+    ul{
+        list-style: none;
+        
+
+        li{
+            display: inline-block;
+            width: auto;
+            height: auto;
+            margin-right: 20px;
+            margin-left: 20px;
+            text-align: center;
+     
+             &:hover{
+               
+               
+             }
+            
+
+            a{
+                text-decoration: none;
+                color: $heder_nav_bar_text;
+                font-size: 30px;
+                font-family: Arial, sans-serif;
+   
+                &:hover{
+                    color: $heder_nav_bar_text_hover; 
+                    transition: 0.8s ease-in-out;
+                    
+                    
+                }
+            }
+        }
+    }
+}
+.nav_btn{
+    background-color: $fit_collor;
+    width: auto;
+    height: auto;
+    margin-right:  30px;
+
+    .bnt0{
+        color: $button_connect_text;
+        background-color: $button_connect_bacround;
+        width: 130px;
+        height: 50px;
+        border-radius: 25px;
+        border: solid 0px;
+        font-size: 25px;
+
+         &:hover{
+            color: $button_connect_text_hover;
+            background-color: $button_connect_bacround_hover;
+            transition: 1s ease-in;
+         
+         }
+    }
+}
+
+.hero{
+    width: auto;
+    height: 1000px;
+    background: $main_Hero_backgroung;
+}

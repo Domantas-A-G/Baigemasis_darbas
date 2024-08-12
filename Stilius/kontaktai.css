@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #260058;
+  color: #333;
+}
+
+.main {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.map-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: auto;
+  height: 400px;
+}
+
+#maps_id {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
+}
+
+.contact-form {
+  width: 30%;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form select {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.contact-form .radio-group {
+  display: flex;
+  align-items: center;
+}
+
+.contact-form .radio-group input {
+  margin-right: 10px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #007bff;
+}
+
+.error-message {
+  color: red;
+  display: none;
+  font-size: 0.875rem;
+}
+
+.text_box {
+  margin: 0px;
+  padding: 0%;
+  background-color: rgba(134, 134, 224, 0);
+  width: auto;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+.text_box .btn5 {
+  width: auto;
+  height: 50px;
+  background-color: blueviolet;
+  border: solid orange 1px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+  box-shadow: violet 10px, 20px;
+}
+.text_box .btn5:hover {
+  background-color: lightskyblue;
+  box-shadow: violet -10px, -20px;
+}
+.text_box .btn5 .btn_h5 {
+  list-style-type: none;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-shadow: 5px, 5px, 5px #007BFF;
+}
+.text_box .btn5 .btn_h5 a {
+  text-decoration: none;
+  color: #3d004d;
+  text-shadow: 5px, 5px, 5px #007BFF;
+}
+.text_box .c_img_box {
+  width: 25px;
+  height: 25px;
+  padding-right: 10px;
+}
+.text_box .c_img_box .c_img {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.text_box .par {
+  color: white;
+  font-size: 15px;
+}
+.text_box .par .text_b {
+  color: white;
+}
+
+.form_input {
+  color: #838383;
+  background-color: rgba(103, 3, 235, 0.2549019608);
+  text-align: center;
+  border-radius: 25px;
+}
+.form_input:hover {
+  background-color: white;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  color: #007bff;
+}
+
+.lastName_pasoronk {
+  text-align: center;
+  color: #007BFF;
+}/*# sourceMappingURL=kontaktai.css.map */

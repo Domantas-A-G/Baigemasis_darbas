@@ -1,0 +1,104 @@
+header {
+  background-color: rgba(54, 0, 90, 0.6509803922);
+  width: auto;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Logobox {
+  background-color: rgba(119, 128, 41, 0.644);
+  width: auto;
+  height: auto;
+  margin-left: 30px;
+}
+.Logobox .Logo {
+  background-color: rgba(54, 0, 90, 0.6509803922);
+  width: 90px;
+  height: auto;
+}
+
+.hd_centras .master_contact {
+  padding-bottom: 15px;
+}
+.hd_centras .master_contact .contact_M {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+.hd_centras .master_contact .contact_M .masyer_icon {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+.hd_centras .master_contact .contact_M .masyer_icon .M_text {
+  color: orange;
+  font-size: x-large;
+}
+.hd_centras .master_contact .contact_M .masyer_icon .M_text a {
+  text-decoration: none;
+  color: orange;
+}
+.hd_centras .master_contact .contact_M .masyer_icon .M_text a:hover {
+  color: #ee82ee;
+}
+.hd_centras .master_contact .contact_M .masyer_icon .M_text:hover {
+  color: #ee82ee;
+}
+.hd_centras .master_contact .contact_M .masyer_icon .M_icon {
+  width: 35px;
+}
+
+.hd_centras .nav {
+  background-color: rgba(54, 0, 90, 0.3019607843);
+  width: auto;
+  height: 25px;
+}
+.hd_centras .nav ul {
+  list-style: none;
+}
+.hd_centras .nav ul li {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+.hd_centras .nav ul li a {
+  text-decoration: none;
+  color: rgba(210, 146, 252, 0.8274509804);
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+}
+.hd_centras .nav ul li a:hover {
+  color: #ae45f5;
+  transition: 0.8s ease-in-out;
+}
+
+.nav_btn {
+  background-color: rgba(229, 255, 0, 0.6588235294);
+  width: auto;
+  height: auto;
+  margin-right: 30px;
+}
+.nav_btn .bnt0 {
+  color: rgba(210, 146, 252, 0.8274509804);
+  background-color: rgba(83, 0, 138, 0.7725490196);
+  width: 130px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 0px;
+  font-size: 25px;
+}
+.nav_btn .bnt0:hover {
+  color: rgba(83, 0, 138, 0.7725490196);
+  background-color: #d292fc;
+  transition: 1s ease-in;
+}/*# sourceMappingURL=style.css.map */

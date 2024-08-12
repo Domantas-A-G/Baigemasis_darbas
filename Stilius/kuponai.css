@@ -1,0 +1,139 @@
+@charset "UTF-8";
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: Arial, sans-serif;
+  background-color: #25002e;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.item {
+  background-color: rgba(255, 166, 0, 0);
+  padding: 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  cursor: pointer;
+}
+
+.image-container {
+  background-color: rgba(26, 0, 41, 0.6980392157);
+  border-radius: 80;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+.image-container .image {
+  border-radius: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 70px;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 80px;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(30, 143, 255, 0.6235294118);
+  padding: 10px;
+  border-radius: 5px;
+  width: 98%;
+  border-radius: 25px;
+  height: auto;
+  display: none; /* Paslėpti pradžioje */
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.content .contant2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.content .contant2 .price {
+  color: #ffa500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+.content .contant2 .buy {
+  width: 200px;
+  height: 50px;
+}
+.content .contant2 .buy .buy-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #000;
+  color: #ffff00;
+  font-size: x-large;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.content .contant2 .buy .buy-btn:hover {
+  background-color: #e0ffff;
+  color: #000;
+}
+
+.content.show {
+  display: block;
+  opacity: 1;
+}
+
+.content h2 {
+  font-size: 25px;
+  margin: 10px 0;
+  color: #000000;
+  font-size: xx-large;
+}
+
+.content p {
+  margin: 10px 0;
+  color: #000000;
+  font-size: large;
+}
+
+@media screen and (max-width: 1200px) {
+  .item {
+    width: calc(33.333% - 10px); /* 3 stulpeliai */
+  }
+}
+@media screen and (max-width: 768px) {
+  .item {
+    width: calc(50% - 10px); /* 2 stulpeliai */
+  }
+}
+@media screen and (max-width: 480px) {
+  .item {
+    width: 100%; /* 1 stulpelis */
+  }
+}/*# sourceMappingURL=kuponai.css.map */

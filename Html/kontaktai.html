@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktai</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Stilius/base.css">
+    <link rel="stylesheet" href="/Stilius/style.css">
+    <link rel="stylesheet" href="/Stilius/kontaktai.css">
+</head>
+<body>
+    <header>
+        <div class="Logobox">
+            <img src="/Grafija/icon/New folder/time-value.gif" alt="Logo" class="Logo">
+        </div>
+
+        <div class="hd_centras">
+            <div class="master_contact">
+                <div class="contact_M">
+                    <div class="masyer_icon">
+                        <img src="/Grafija/icon/png/time-value (1).png" alt="" class="M_icon">
+                        <p class="M_text">I-V  Nuo 09h-17h</p>
+                    </div>
+                    <div class="masyer_icon">
+                        <img src="/Grafija/icon/New folder/call.png" alt="" class="M_icon">
+                        <p class="M_text">+37067055351</p>
+                    </div>
+                    <div class="masyer_icon">
+                        <img src="/Grafija/icon/New folder/social-media.gif" alt="" class="M_icon">
+                        <p class="M_text"><a href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2F">Atsipalaiduok</a></p>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li class="active"><a href="/Html/pagrindinis.html">Pagrindinis</a></li>
+                    <li><a href="/Html/Nauda.html">Nauda</a></li> 
+                    <li><a href="/Html/Apie mus.html">Apie mus</a></li>
+                    <li><a href="/Html/Paslaugos.html">Paslaugos</a></li>
+                    <li><a href="/Html/Dovanos.html">Dovanos</a></li> 
+                    <li><a href="/Html/kontaktai.html">kontaktai</a></li>
+                </ul>    
+            </nav>
+        </div>
+        
+        
+        <div class="nav_btn">
+            <input type="button" value="Prisijunk" class="bnt0">
+        </div>       
+                    
+    </header>
+
+     <main class="main">
+             <div class="map-container">
+            <!-- Įdėkite savo Google Maps iframe čia -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2716.5212466416374!2d24.274103859269644!3d55.0727700370987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e70ee2e808986f%3A0x428d7725d600b245!2sVasario%2016-osios%20g.%201%2C%20Jonava%2C%2055171%20Jonavos%20r.%20sav.!5e0!3m2!1sen!2slt!4v1723297426123!5m2!1sen!2slt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" id="maps_id"></iframe>
+             </div>
+            
+            <div class="contact-details">
+                <div class="contact-info">
+                    <h2>Kontaktinė Informacija</h2>
+                    <div class="text_box">
+                        <div class="c_img_box">
+                            <img src="/Grafija/Icons/contacts.png" class="c_img">
+                        </div>
+                        <p class="par">Kontaktinis tel.: <br> <b class="text_b">+37067055351</b></p>
+                    </div>
+                    <div class="text_box">
+                        <div class="c_img_box">
+                            <img src="/Grafija/Icons/placeholder.png" class="c_img">
+                        </div>
+                        <p class="par">Adresas: <br>  <b class="text_b">Vasario 16-osios g. 1, Jonava, Lietuva</b></p>
+                    </div>
+                    <div class="text_box">
+                        <div class="c_img_box">
+                            <img src="/Grafija/Icons/mail.png" class="c_img">
+                        </div>
+                        <p class="par">El. paštas: <br> <b class="text_b">masažas.atsipalaiduok@gmail.com</b></p>
+                    </div>
+                    <div class="text_box">
+                        <div class="c_img_box">
+                            <img src="/Grafija/Icons/facebook.png" class="c_img">
+                        </div>
+                        <p class="par">Facebook:  <br> <b class="text_b"> Atpalaiduojantis masažas</b></p>
+                    </div>
+                    <div class="text_box">
+
+                        <div class="btn5">
+                            <h5 class="btn_h5"><a href="/Html/užimtumas.html"><b>Išsirink atsipalaidavimo laika</b></a></h5>
+                        </div>
+
+                    
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h2>Užklausos Forma</h2>
+                    <form id="contactForm">
+
+                        <input type="text" id="firstName" name="firstName" placeholder="Įveskite savo Varda" required class="form_input">        
+                        <input type="text" id="lastName" name="lastName" placeholder="Įveskite savo Pavarde " class="form_input">
+                        <input type="email" id="email" name="email" placeholder="Įveskite savo elektronini pašta" class="form_input">
+                            <input type="tel" id="phone" name="phone" placeholder="Įveskite savo kontaktini numeri" required class="form_input">
+                            <span class="error-message" id="phoneError">Prašome įvesti savo telefono numerį</span>
+                       
+                        <div class="radio-group">
+                            <input type="radio" id="male" name="gender" value="male"  class="radio-group">
+                            <label for="male">Vyras</label class="radio-group">     
+                            <input type="radio" id="female" name="gender" value="female" class="radio-group">
+                            <label for="female">Moteris</label class="radio-group">
+                        </div>        
+                        <label class="lastName_pasoronk">Pasirinkite paslaugą:</label>
+                        <select id="service" name="service" class="form_input" placeholder="Pateikti užklausą">
+                            <option value="feet">Kojos</option>
+                            <option value="hands">Rankos</option>
+                            <option value="shoulders">Pečiai</option>
+                        </select>
+                        <button type="submit"><b>Pateikti užklausą</b></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+     </main>
+
+     <footer>
+        <div class="box0">
+             <p class="p1">Powered by IV ,,Atsipalaiduok,, </p>
+        </div>
+        <div class="box2">
+            <p clas="p2">Powered by IV ,,Atsipalaiduok,, </p>
+        </div>
+    </footer>        
+
+
+        
+    <script src="/svript/kontaktaiscript.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>

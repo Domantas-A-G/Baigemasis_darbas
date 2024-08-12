@@ -1,0 +1,70 @@
+
+
+$body_baground: #000000;
+$mai_baground: #fbff00,;
+$Calendoriaus_hoveris: #8400f0,#470081,#3e0070,#530097,#8c00ff,#8400f0;
+$Calendoriaus_hoveris_top: #8400f0,#3e0070,#530097,#6c00c4,#8400f0;
+
+
+    
+body{
+    height: auto;
+    width: auto;
+    background: linear-gradient(15deg, $body_baground);
+}
+.main{
+    width: auto;
+    height: 800px;
+    background: linear-gradient(15deg, $main_baground);
+    margin-right: 80px;
+    display: flex;
+
+}
+.užimtumas{
+    margin: 20px;
+    width: 1800px;
+    height: 780px;
+    display: flex;
+
+    
+  
+    
+    .box3{
+        background : linear-gradient(15deg, $Calendoriaus_hoveris) ;
+        width:50px;
+        height: 780px;
+        position: absolute;
+        
+
+    }
+    .box4{
+        background : linear-gradient(15deg, $Calendoriaus_hoveris_top ) ;
+       width: 189vh;
+        height: 185px;
+        position: absolute;
+        translate: 0px;
+        display: flex;
+
+        .calendor_text{
+            background-color: aliceblue;
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            
+           
+        }
+        }
+    .calendorius{
+      
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+.calendorius_box{
+    border: solid 3px orange;
+    width: 200px;
+    height: 900px;
+    z-index: 3;
+}

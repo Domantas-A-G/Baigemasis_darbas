@@ -1,0 +1,92 @@
+@charset "UTF-8";
+body {
+  height: auto;
+  width: auto;
+  background-color: #5c00b3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main {
+  width: auto;
+  height: 900px;
+  background-color: #5c00b3;
+  margin-right: 80px;
+  display: flex;
+}
+
+.užimtumas {
+  margin: 20px;
+  width: 1800px;
+  height: 780px;
+  display: flex;
+  
+
+}
+.užimtumas .box3 {
+  background-color: #5c00b3;
+  width: 50px;
+  height: 780px;
+  position: absolute;
+}
+.užimtumas .box4 {
+  background-color: #5c00b3;
+  width: 189vh;
+  height: 181px;
+  position: absolute;
+  display: flex;
+  padding-left: 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  
+}
+h5{
+  font-size: 80px;
+  color: rgba(248, 235, 235, 0.815);
+}
+.calendor_text{
+  background-color: #23004100;
+  width: 260px;
+  height: 50px;
+  display: flex;
+  gap: 15px;
+  align-self: auto;
+  align-items:center;
+  margin-left: 0px;
+
+}
+h6{
+  color: white;
+  font-size: 25px;
+
+}
+.indikacija_box{
+  display: flex;
+  flex-direction: row;
+}
+.indikacija0{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(21, 255, 0);
+  border-radius: 25px;
+}
+.indikacija1{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(0, 153, 255);
+  border-radius: 25px;
+}
+.indikacija2{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 81, 0);
+  border-radius: 25px;
+}
+
+.užimtumas .calendorius {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=užimtumas.css.map */

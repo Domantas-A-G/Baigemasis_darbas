@@ -1,0 +1,154 @@
+$body_baground: #6203ce,#200303,#3d0083,#230249,#6019b1,#3f0581,#2a2530;
+$bselection_box_baground: #aa17e4;
+$main_box_baground: #25004e,#2b015c,#33006d,#530ba5,#2e0063;
+$box_card_baground: #7a00cc88;
+$Master_title_color: #3f0069;
+$second_title_color: #a751e0;
+$about_text_baground: #a751e0;
+$about_text_color: #000000;
+$masage_type_color:#ff0000;
+
+
+body{
+    background-image: radial-gradient($body_baground);
+}
+.selection_box{
+    width: auto;
+    height: auto;
+    background-color: $bselection_box_baground;
+    display: flex;
+    gap: 50px;
+    justify-content:space-around;
+    margin: 80px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+main{
+    width: auto;
+    height: auto;
+    background-image: radial-gradient($main_box_baground);
+    margin-left: 100px;
+    margin-right: 100px;
+
+    h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 100px;
+        text-align: center;
+        color: rgba(247, 155, 155, 0.507);
+        padding-top: 15px;
+
+    }
+
+    .box{
+        background-color: $box_card_baground;
+        width: 550px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 40%;
+        gap: 10px;
+
+        
+
+               
+    }
+
+        .text{
+            background-color: $about_text_baground;
+            color: $about_text_color;
+            border-radius: 30px;
+            border: solid 1px;
+            margin-top: 10px;
+            padding: 10px;
+            width: auto;
+            height: auto;
+            font-size: large;
+           
+        }
+
+        h4{
+            color: $second_title_color;
+            font-size: 40px;
+        }
+
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+            color: $Master_title_color;
+            font-size: 40px;
+            padding-top: 15px;
+            
+        }
+
+ }
+
+.proceduros{
+    width: auto;
+    height: 200px;
+    border: solid 2px rgba(247, 49, 82, 0);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+
+    
+    
+
+ 
+    .box_masažu_tipai{
+        border: 2px solid ;
+        width: auto;
+        height: 55px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+        justify-content: center;
+        justify-content: space-between;
+        margin: 5px;
+        border-radius: 15px;
+        align-items: center;
+
+    
+    
+        h5{
+            padding-left: 10px;
+            font-size: x-large;
+            color: $masage_type_color;
+            
+        }
+        
+         .ikonas{
+            width: 29px;
+            height: 29px;
+            border: solid 1px;
+            margin-right: 10px;
+            
+    
+             .varnele{
+                width: 100%;
+                height: 100%;
+            
+             }
+         }
+    }
+}
+
+.img_portret{
+    width: 50%;
+    height: 50%;
+    
+
+
+     .img_fc{
+    
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+     }
+}

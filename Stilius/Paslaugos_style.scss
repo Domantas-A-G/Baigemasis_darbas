@@ -1,0 +1,93 @@
+body{
+    background: lightcoral;
+}
+main{
+    width: auto;
+    height: 800px;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.paslauga_1{
+    margin: 0%;
+    padding: 0%;
+    background-color: lightgreen;
+    width: auto;
+    height: auto;
+    padding: 25px;
+
+    .text_box{
+        background-color: rgb(201, 201, 201);
+        color: white;
+        font-size: 25px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3{
+            color: aqua;
+        }
+    }
+
+    h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 50px;
+        color: rgb(190, 121, 255);
+
+    }
+}
+.box_box{
+    background-color: blueviolet;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.box_nauda{
+    border: solid rgb(255, 11, 11);
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .box_icon{
+        background-color: aqua;
+        width: 50px;
+        height: 50px;
+        border: solid 2px orange;
+        margin-right: 10px;
+
+         .img_chek{
+            object-fit: fill;
+            position: absolute;
+            width: 40px;
+    
+        }
+    }
+
+    h5{
+       padding: 5px;
+        color: antiquewhite;
+    }
+}
+
+
+//<h5><b>Kraujotakos gerinimas.</b></h5>
+  //                <h5><b>Raumenų atpalaidavimas.</b></h5>
+    //              <h5><b>Miego kokybės gerinimas.</b></h5>
+      //            <h5><b>Psichologinė gerovė.</b></h5>

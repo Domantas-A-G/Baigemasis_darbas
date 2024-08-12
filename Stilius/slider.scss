@@ -1,0 +1,85 @@
+/* Pagrindiniai stiliai visam puslapiui ir body elementui */
+body, html {
+    margin: 0; /* Pašalina numatytąjį naršyklės kraštų tarpą */
+    padding: 0; /* Pašalina numatytąjį naršyklės kraštų tarpą */
+    height: 100%; /* Nustato elementų aukštį per visą ekraną */
+    font-family: Arial, sans-serif; /* Nustato šriftą */
+    overflow: hidden; /* Neleidžia rodyti slinkčių */
+    display: flex; /* Naudoja flexbox elementų centravimui */
+    justify-content: center; /* Horizontaliai centravimas */
+    align-items: center; /* Vertikaliai centravimas */
+    background-color: #111; /* Nustato fono spalvą (tamsiai pilka) */
+}
+
+/* Sliderio konteineris */
+.slider {
+    position: relative; /* Nustato santykinę poziciją kitų elementų atžvilgiu */
+    width: 200vh; /* Nustato pločio santykį su ekrano aukščiu */
+    height: 100vh; /* Nustato aukštį per visą ekraną */
+    overflow: hidden; /* Paslepia turinį, kuris išeina už sliderio ribų */
+    display: flex; /* Naudoja flexbox elementų centravimui */
+    justify-content: center; /* Horizontaliai centravimas */
+    align-items: center; /* Vertikaliai centravimas */
+}
+
+/* Sliderio turinio stilius */
+.slider-content {
+    z-index: 10; /* Užtikrina, kad turinys būtų virš kitų elementų */
+    position: relative; /* Nustato santykinę poziciją kitų elementų atžvilgiu */
+    color: rgb(55, 0, 87); /* Nustato teksto spalvą */
+    text-align: center; /* Centruoja tekstą */
+    font-size: 3rem; /* Nustato teksto dydį */
+}
+
+/* Fono paveikslėlių konteineris */
+.background-images {
+    position: absolute; /* Nustato absoliučią poziciją sliderio atžvilgiu */
+    top: 0; /* Nustato, kad viršus būtų prilipęs prie sliderio viršaus */
+    left: 0; /* Nustato, kad kairė būtų prilipusi prie sliderio kairės pusės */
+    width: 100%; /* Užima visą sliderio plotį */
+    height: 100%; /* Užima visą sliderio aukštį */
+    z-index: 0; /* Užtikrina, kad fono paveikslėliai būtų už kitų elementų */
+    display: flex; /* Naudoja flexbox paveikslėlių išdėstymui */
+    //transition: transform 20s linear; /* Nustato tolygų perėjimą keičiant pozicijas */
+}
+
+/* Fono paveikslėlių stiliai */
+.background-images img {
+    width: 100%; /* Paveikslėlis užima visą sliderio plotį */
+    height: 100%; /* Paveikslėlis užima visą sliderio aukštį */
+    object-fit: cover; /* Užtikrina, kad paveikslėlis užpildytų visą plotą, neprarasdamas proporcijų */
+    position: absolute; /* Absoliuti pozicija konteinerio atžvilgiu */
+    top: 0; /* Paveikslėlis prilipęs prie sliderio viršaus */
+    left: 0; /* Paveikslėlis prilipęs prie sliderio kairės pusės */
+    opacity: 0; /* Paveikslėlis iš pradžių nematomas */
+    transition: opacity 30s linear, filter 30s linear; /* Nustato tolygų perėjimą keičiant skaidrumą ir blur efektą */
+    filter: blur(2px); /* Neryškumo efektas visiems paveikslėliams iš pradžių */
+}
+
+/* Aktyvaus paveikslėlio stiliai */
+.background-images img.active {
+    opacity: 1; /* Aktyvus paveikslėlis tampa matomas */
+    filter: blur(0s); /* Aktyvus paveikslėlis tampa ryškus, be neryškumo */
+}
+
+/* Rodyklių stiliai */
+.arrow {
+    position: absolute; /* Absoliuti pozicija sliderio atžvilgiu */
+    top: 50%; /* Vertikalus centravimas */
+    transform: translateY(-50%); /* Pakelia rodyklę per pusę jos aukščio, kad būtų tiksliai centre */
+    font-size: 2rem; /* Rodyklės dydis */
+    color: white; /* Rodyklės spalva */
+    cursor: pointer; /* Rodyklė tampa spustelėjama */
+    z-index: 2; /* Užtikrina, kad rodyklės būtų virš fono paveikslėlių */
+    user-select: none; /* Neleidžia vartotojui pasirinkti rodyklių teksto */
+}
+
+/* Kairės rodyklės pozicija */
+.left-arrow {
+    left: 10px; /* Kairės rodyklės atstumas nuo sliderio kairiojo krašto */
+}
+
+/* Dešinės rodyklės pozicija */
+.right-arrow {
+    right: 10px; /* Dešinės rodyklės atstumas nuo sliderio dešiniojo krašto */
+}
